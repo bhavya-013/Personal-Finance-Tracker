@@ -337,7 +337,6 @@ class FinanceDashboard:
         """,
         (self.user_id,)
         )
-
         rows = self.cursor.fetchall()
 
         for row in rows:
